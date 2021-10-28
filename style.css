@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container_tetris{
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #89C2D9;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 140px;
+    border-radius: 10px;
+    background-color: #F28DB2;
+    margin: 20px;
+}
+
+.score h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    
+}
+
+.msj{
+    
+    width: 160px;
+    height: 50px;
+
+    border-radius: 10px;
+    background-color: #F28DB2;
+    margin: 20px;
+}
+.msj input{
+    font-family: 'Roboto', sans-serif;
+    align-content: center;
+    justify-content: center;
+    border: none;
+    margin: 10px;
+    background: none;
+    color: black;
+    font-weight: bold;
+}
+
+.puntuacion--score{
+    color:#F2F2F2;
+    font-size: 20px;
+    
+}
+.nuevo-juego {
+    cursor: pointer;
+    background: linear-gradient(#040FD9,#EE05F2);
+    padding: 20px;
+    border-radius: 50px;
+    border: white 5px solid;
+    color:#F2F2F2;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    
+}
